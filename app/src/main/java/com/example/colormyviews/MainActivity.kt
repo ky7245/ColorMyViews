@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         setListeners()
     }
-
     private fun makeColored(view: View) {
+
         when (view.id) {
 
             // Boxes using Color class colors for the background
@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
             R.id.box_three_text -> view.setBackgroundColor(Color.BLUE)
             R.id.box_four_text -> view.setBackgroundColor(Color.MAGENTA)
             R.id.box_five_text -> view.setBackgroundColor(Color.BLUE)
+
+            R.id.constraint_layout -> view.setBackgroundResource(R.drawable.bg_abstract1_blue)
 
             else -> view.setBackgroundColor(Color.LTGRAY)
         }
