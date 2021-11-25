@@ -86,10 +86,10 @@
         android:id="@+id/info_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="@dimen/margin_wide"
+        android:layout_marginTop="@dimen/margin_wide"
+        android:layout_marginEnd="@dimen/margin_wide"
+        android:layout_marginBottom="@dimen/margin_wide"
         android:fontFamily="@font/roboto"
         android:text="@string/tap_the_boxes_and_buttons"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,6 +97,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/label_text"
         app:layout_constraintTop_toBottomOf="@+id/box_two_text"
-        app:layout_constraintVertical_bias="0.44" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>
